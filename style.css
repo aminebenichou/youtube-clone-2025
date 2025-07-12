@@ -69,3 +69,23 @@ li span{
     padding-right: 4px;
     font-size: large;
 }
+
+.video-card{
+    padding: 10px;
+}
+.video-title{
+    font-size: large;
+    font-weight: bold;
+}
+
+.dropdown{
+    padding: 20px;
+}
+
+.drop-menu{
+    display: none;
+}
+.active{
+    display: flex;
+    flex-direction: column;
+}
