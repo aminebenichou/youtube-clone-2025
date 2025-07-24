@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.left-side{
+    width: 75%;
+    border: 1px solid black;
+    height: fit-content;
+}
+
+.right-side{
+    width: 25%;
+    border: 1px solid red;
+    height: fit-content;
+}
+
+.channel{
+    border: 1px solid black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.channel-details{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.title{
+    font-weight: bold;
+    font-size: larger;
+    padding: none;
+    margin: 0px;
+}
+
+.subs{
+    padding: none;
+    margin: 0px;
+}
+.sub button{
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.sub button:hover{
+    background-color: lightgrey;
+}
