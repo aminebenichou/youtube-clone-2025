@@ -3,7 +3,10 @@
     margin: 0;
 
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 section{
     width: 100%
 }
@@ -70,12 +73,23 @@ li span{
     font-size: large;
 }
 
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .video-card{
     padding: 10px;
+
+}
+.video-card:hover{
+    cursor: pointer;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
 }
 .video-title{
     font-size: large;
     font-weight: bold;
+    width: 200px;
 }
 
 .dropdown{
